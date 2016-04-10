@@ -1,6 +1,5 @@
 package org.mcau.robotoraccoon.chworldborder;
 
-import com.laytonsmith.abstraction.AbstractConvertor;
 import com.laytonsmith.abstraction.MCLocation;
 import com.laytonsmith.abstraction.StaticLayer;
 import com.laytonsmith.annotations.api;
@@ -9,6 +8,8 @@ import com.laytonsmith.core.ObjectGenerator;
 import com.laytonsmith.core.Static;
 import com.laytonsmith.core.constructs.*;
 import com.laytonsmith.core.environments.Environment;
+import com.laytonsmith.core.exceptions.CRE.CREInvalidWorldException;
+import com.laytonsmith.core.exceptions.CRE.CREThrowable;
 import com.laytonsmith.core.exceptions.ConfigRuntimeException;
 import com.laytonsmith.core.functions.AbstractFunction;
 import com.laytonsmith.core.functions.Exceptions;
@@ -60,9 +61,9 @@ public class Border {
         }
 
         @Override
-        public Exceptions.ExceptionType[] thrown() {
-            return new Exceptions.ExceptionType[]{
-                    Exceptions.ExceptionType.InvalidWorldException
+        public Class<? extends CREThrowable>[] thrown() {
+            return new Class[]{
+                    CREInvalidWorldException.class
             };
         }
 
@@ -107,9 +108,9 @@ public class Border {
         }
 
         @Override
-        public Exceptions.ExceptionType[] thrown() {
-            return new Exceptions.ExceptionType[]{
-                    Exceptions.ExceptionType.InvalidWorldException
+        public Class<? extends CREThrowable>[] thrown() {
+            return new Class[]{
+                    CREInvalidWorldException.class
             };
         }
 
@@ -153,9 +154,9 @@ public class Border {
         }
 
         @Override
-        public Exceptions.ExceptionType[] thrown() {
-            return new Exceptions.ExceptionType[]{
-                    Exceptions.ExceptionType.InvalidWorldException
+        public Class<? extends CREThrowable>[] thrown() {
+            return new Class[]{
+                    CREInvalidWorldException.class
             };
         }
 
@@ -199,9 +200,9 @@ public class Border {
         }
 
         @Override
-        public Exceptions.ExceptionType[] thrown() {
-            return new Exceptions.ExceptionType[]{
-                    Exceptions.ExceptionType.InvalidWorldException
+        public Class<? extends CREThrowable>[] thrown() {
+            return new Class[]{
+                    CREInvalidWorldException.class
             };
         }
 
@@ -245,9 +246,9 @@ public class Border {
         }
 
         @Override
-        public Exceptions.ExceptionType[] thrown() {
-            return new Exceptions.ExceptionType[]{
-                    Exceptions.ExceptionType.InvalidWorldException
+        public Class<? extends CREThrowable>[] thrown() {
+            return new Class[]{
+                    CREInvalidWorldException.class
             };
         }
 
@@ -291,9 +292,9 @@ public class Border {
         }
 
         @Override
-        public Exceptions.ExceptionType[] thrown() {
-            return new Exceptions.ExceptionType[]{
-                    Exceptions.ExceptionType.InvalidWorldException
+        public Class<? extends CREThrowable>[] thrown() {
+            return new Class[]{
+                    CREInvalidWorldException.class
             };
         }
 
@@ -337,9 +338,9 @@ public class Border {
         }
 
         @Override
-        public Exceptions.ExceptionType[] thrown() {
-            return new Exceptions.ExceptionType[]{
-                    Exceptions.ExceptionType.InvalidWorldException
+        public Class<? extends CREThrowable>[] thrown() {
+            return new Class[]{
+                    CREInvalidWorldException.class
             };
         }
 
@@ -384,9 +385,9 @@ public class Border {
         }
 
         @Override
-        public Exceptions.ExceptionType[] thrown() {
-            return new Exceptions.ExceptionType[]{
-                    Exceptions.ExceptionType.InvalidWorldException
+        public Class<? extends CREThrowable>[] thrown() {
+            return new Class[]{
+                    CREInvalidWorldException.class
             };
         }
 
@@ -434,9 +435,9 @@ public class Border {
         }
 
         @Override
-        public Exceptions.ExceptionType[] thrown() {
-            return new Exceptions.ExceptionType[]{
-                    Exceptions.ExceptionType.InvalidWorldException
+        public Class<? extends CREThrowable>[] thrown() {
+            return new Class[]{
+                    CREInvalidWorldException.class
             };
         }
 
@@ -483,9 +484,9 @@ public class Border {
         }
 
         @Override
-        public Exceptions.ExceptionType[] thrown() {
-            return new Exceptions.ExceptionType[]{
-                    Exceptions.ExceptionType.InvalidWorldException
+        public Class<? extends CREThrowable>[] thrown() {
+            return new Class[]{
+                    CREInvalidWorldException.class
             };
         }
 
@@ -532,9 +533,9 @@ public class Border {
         }
 
         @Override
-        public Exceptions.ExceptionType[] thrown() {
-            return new Exceptions.ExceptionType[]{
-                    Exceptions.ExceptionType.InvalidWorldException
+        public Class<? extends CREThrowable>[] thrown() {
+            return new Class[]{
+                    CREInvalidWorldException.class
             };
         }
 
@@ -583,9 +584,9 @@ public class Border {
         }
 
         @Override
-        public Exceptions.ExceptionType[] thrown() {
-            return new Exceptions.ExceptionType[]{
-                    Exceptions.ExceptionType.InvalidWorldException
+        public Class<? extends CREThrowable>[] thrown() {
+            return new Class[]{
+                    CREInvalidWorldException.class
             };
         }
 
@@ -633,9 +634,9 @@ public class Border {
         }
 
         @Override
-        public Exceptions.ExceptionType[] thrown() {
-            return new Exceptions.ExceptionType[]{
-                    Exceptions.ExceptionType.InvalidWorldException
+        public Class<? extends CREThrowable>[] thrown() {
+            return new Class[]{
+                    CREInvalidWorldException.class
             };
         }
 
